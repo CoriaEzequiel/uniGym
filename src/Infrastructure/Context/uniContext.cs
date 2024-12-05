@@ -12,5 +12,6 @@ namespace Infrastructure.Context
         public DbSet<Professor>Professors { get; set; }
         public DbSet<VipClient>VipClients { get; set; }
         public DbSet<Meeting> Meetings { get; set; }
+        public DbSet<SuperAdm> SuperAdms { get; set; }
     }
 }

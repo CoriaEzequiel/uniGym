@@ -6,7 +6,7 @@ public class Meeting
 
     public DateTime Date { get; set; }
 
-    public VipClient VipClient { get; set; } = new();
+    public VipClient? VipClient { get; set; } = new();
 
-    public Professor PRofessor { get; set; } = new();
+    public Professor? Professor { get; set; } = new();
 }

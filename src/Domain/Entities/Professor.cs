@@ -9,7 +9,7 @@ namespace Domain.Entities
 {
     public class Professor : User
     {
-        public ProfessorClass PRofessorClass { get; set; }
+        public ProfessorClass ProfessorClass { get; set; }
         public List<Meeting> Meetings { get; set; } = new List<Meeting>();
 
         public Professor() {
